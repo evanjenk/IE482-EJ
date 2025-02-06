@@ -19,15 +19,21 @@ This code creates a connection between the localhost website and my machine thro
 
 ### 3. Download Needed Packages
 - Install socket.io using the command `pip install socket.io`
-- Install websocket-client using the command 'pip install websocket-client'
+- Install websocket-client using the command `pip install websocket-client`
 
 ## Running the Project
 - In the file explorer, find the simple_browser_socket file
 - Right click the file
 - Click the 'Open in Terminal' option
 - Duplicate the terminal window
-- In one terminal window, enter python client.py
-- In the other terminal window, enter python server_secure.cjs
+- In one terminal window, enter
+    ```
+    python client.py
+    ```
+- In the other terminal window, enter
+    ```
+    python server_secure.cjs
+    ```
 - Now, open the machine's browser to https://localhost:8080/index.html
 
 ## What's Happening?
