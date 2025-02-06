@@ -18,7 +18,7 @@ This code creates a connection between the localhost website and my machine thro
 - UnZIP the file
 
 ### 3. Download Needed Packages
-- Install socket.io using the command 'pip install socket.io'
+- Install socket.io using the command `pip install socket.io`
 - Install websocket-client using the command 'pip install websocket-client'
 
 ## Running the Project
